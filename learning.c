@@ -1,15 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    int a;
-    scanf("%d", &a);
-    for(;;){
-        if(a>0){
-            a-=1;
-            printf("%d\n", a);
-        }
-        else if(a==0){
-            break;
+    int n,m;
+    int i,j; //for문을 위한 변수 선언
+    scanf("%d %d", &n, &m);
+    for(i=1;i<=n;i++){
+        for(j=1;j<=m;j++){
+            printf("%d %d\n", i, j);
         }
     }
     
