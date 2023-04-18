@@ -1,17 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    int r,g,b;
-    int i,j,k;
-    scanf("%d %d %d", &r, &g, &b);
-    for(i=0;i<r;i++){
-        for(j=0;j<g;j++){
-            for(k=0;k<b;k++){
-                printf("%d %d %d\n", i, j, k);
-            }
-        }
+    int a,b;
+    scanf("%c", &a);
+    for(b=65;b<a;b--){
+        printf("%c ",b);
     }
-    printf("%d",r*g*b);
+
+    
     
     return 0;
 }
