@@ -8,11 +8,9 @@ int main(){
         if(c<=b){
             c+=b;
         }
-        else{
-            printf("%d",b);
-        }
         
     }
+    printf("%d", a);
 
     return 0;
 }
