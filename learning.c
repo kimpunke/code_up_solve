@@ -2,12 +2,9 @@
 
 int main(){
     int n,m;
-    int i,j; //for문을 위한 변수 선언
-    scanf("%d %d", &n, &m);
-    for(i=1;i<=n;i++){
-        for(j=1;j<=m;j++){
-            printf("%d %d\n", i, j);
-        }
+    scanf("%x", &n);
+    for(m=1;m<=15;m++){
+        printf("%X*%X=%X\n", n, m,n*m);
     }
     
     return 0;
