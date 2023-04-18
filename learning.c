@@ -3,7 +3,7 @@
 int main(){
     int n, v;
     scanf("%d", &v);
-    while(1){
+    for(;;){
         scanf("%d", &n);
         printf("%d\n", n);
         v-=1;
