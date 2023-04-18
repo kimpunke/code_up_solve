@@ -1,10 +1,15 @@
 #include <stdio.h>
 
 int main(){
-    int n,m;
-    scanf("%x", &n);
-    for(m=1;m<=15;m++){
-        printf("%X*%X=%X\n", n, m,n*m);
+    int a,b;
+    scanf("%d", &a);
+    for(b=1;b<=a;b++){
+        if(b%3==0){
+            printf("X ");
+        }
+        else {
+            printf("%d ", b);
+        }
     }
     
     return 0;
