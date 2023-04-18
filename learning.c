@@ -2,16 +2,16 @@
 
 int main(){
     int a;
-    for(;;){
-        scanf("%d ",&a);
-        if(a!=0){
+    scanf("%d", &a);
+    while(1){
+        if(a>0){
             printf("%d\n", a);
+            a-=1;
         }
-        if(a==0){
+        else if(a==0){
             break;
         }
     }
     
     return 0;
-    
 }
