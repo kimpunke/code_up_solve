@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    int n, v;
-    scanf("%d", &v);
+    int a;
     while(1){
-        scanf("%d", &n);
-        printf("%d\n", n);
-        v-=1;
-        if (v==0){
+        scanf("%d ",&a);
+        if(a!=0){
+            printf("%d\n", a);
+        }
+        if(a==0){
             break;
         }
     }
