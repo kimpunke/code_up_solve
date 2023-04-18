@@ -1,20 +1,14 @@
 #include <stdio.h>
 
 int main(){
-    char a;
-    for(;;){
-        scanf("%c ", &a);
-        if(a=='q'){
-            printf("%c\n", a);
-            break;
-        }
-        else{
-            printf("%c\n", a);
-        }
-        
-    }
 
-    
-    return 0;
+int a,b,c;
+scanf("%d", &a);
+for(b=1;c>=a;b++){
+    c+=b;
+}
+printf("%d",b);
+
+return 0;
 }
 
