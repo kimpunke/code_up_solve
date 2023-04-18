@@ -3,7 +3,7 @@
 int main(){
     char a;
     for(;;){
-        scanf("%c", &a);
+        scanf("%c ", &a);
         if(a="q"){
             printf("q\n");
             break;
