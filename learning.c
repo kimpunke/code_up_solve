@@ -2,7 +2,7 @@
 
 int main(){
     int n;
-    while(1){
+    for(;;){
         scanf("%d", &n);
         
         if(n==0) break; 
