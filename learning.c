@@ -5,7 +5,7 @@ int main(){
     for(;;){
         scanf("%c ", &a);
         if(a="q"){
-            printf("q\n");
+            printf("%c\n", a);
             break;
         }
         else{
