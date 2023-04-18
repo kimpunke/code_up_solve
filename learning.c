@@ -1,13 +1,15 @@
 #include <stdio.h>
 
 int main(){
-    int a,b;
+    int a,b,c;
     scanf("%d", &a);
-    for(b=0;b<=a;b++){
-        printf("%d\n",b);
+    for(b=1;b<=a;b++){
+        if(b%2==0){
+            c+=b;
+        }
     }
 
-    
+printf("%d",c);
     
     return 0;
 }
