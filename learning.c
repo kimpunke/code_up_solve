@@ -3,10 +3,10 @@
 int main(){
     int a;
     scanf("%d", &a);
-    for(;;){
+    while(1){
         if(a>0){
-            printf("%d\n", a);
             a-=1;
+            printf("%d\n", a);
         }
         else if(a==0){
             break;
@@ -15,3 +15,4 @@ int main(){
     
     return 0;
 }
+
