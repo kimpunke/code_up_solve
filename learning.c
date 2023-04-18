@@ -1,16 +1,19 @@
 #include <stdio.h>
 
 int main(){
-    int a,b,c;
-    c=0;
-    scanf("%d", &a);
-    for(b=1;b<=a;b++){
-        if(b%2==0){
-            c=c+b;
+    char a;
+    for(;;){
+        scanf("%c", &a);
+        if(a="q"){
+            printf("q\n");
+            break;
         }
+        else{
+            printf("%c\n", a);
+        }
+        
     }
 
-    printf("%d",c);
     
     return 0;
 }
