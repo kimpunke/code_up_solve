@@ -6,8 +6,9 @@ int main(){
     scanf("%d %d %d", &a, &b, &c);
     c-=1;
     for(i=0; i < c; i++){
-        a=a*b;
+        a+=a*b;
     }
+
     printf("%d", a);
 
     return 0;
