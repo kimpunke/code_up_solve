@@ -2,12 +2,12 @@
 
 int main(){
 
-    int a,b,c,d,i;
+    int a,b,c,i;
     scanf("%d %d %d", &a, &b, &c);
     for(i=0; i < c; i++){
-        d=a*b;
+        a=a*b;
     }
-    printf("%d", d);
+    printf("%d", a);
 
     return 0;
 }
