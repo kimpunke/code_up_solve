@@ -3,6 +3,7 @@
 int main(){
 
     int a,b,c,d;
+    d=0;
     scanf("%d %d %d", &a, &b, &c);
     for(c=c-1;c==0; c--){
         d=a*b;
