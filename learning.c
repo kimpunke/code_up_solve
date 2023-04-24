@@ -2,20 +2,13 @@
 
 int main(){
 
-    int a,b,i;
-    scanf("%d", &a);
-    for(i=1;;i++)
+    int a,m,d,t,i;
+    scanf("%d %d %d %d", &a, &m, &d, &t);
+    for(i=1;i<=t;i++)
     {
-        if(a>b)
-        {
-            b+=i;
-        }
-        else
-        {
-            printf("%d", b);
-            break;
-        }
+        a=(a*m)-d;
     }
+    printf("%d",a);
 
 
     return 0;
