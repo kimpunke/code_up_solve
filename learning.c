@@ -12,7 +12,6 @@ int main(){
         }
         else
         {
-            b+=i;
             printf("%d", b);
             break;
         }
