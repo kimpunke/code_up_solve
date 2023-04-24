@@ -2,38 +2,22 @@
 
 int main(){
 
-    int a,b;
-    scanf("%d %d", &a, &b);
-    while(1)
+    int a,b,i;
+    scanf("%d", &a);
+    for(i=1;;i++)
     {
         if(a>b)
         {
-            if(a==b)
+            b+=i;
+        }
+        else
         {
-            printf("%d ", b);
+            b+=i;
+            printf("%d", b);
             break;
         }
-        else
-        {
-            printf("%d ", b);
-            b+=1;
-        }
-        }
-        else
-        {
-            if(a==b)
-            {
-                printf("%d ", a);
-                break;
-            }
-            else
-            {
-                printf("%d ", a);
-                a+=1;
-            }
-        }
-
     }
+
 
     return 0;
 }
