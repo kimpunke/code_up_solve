@@ -2,14 +2,15 @@
 
 int main()
 {
-    int j,i,n;
-    scanf("%d",&n);
-    for (i=0;i<n;i++,puts("")){
-        for (j=0; j<n; j++)
+    int i,t,n;
+    scanf("%d", &n);
+    
+    for(i=1; i<=n; i++){
+        for(t=0; t<i; t++){
             printf("*");
+        }
+        printf("\n");
     }
-
-
 
 
     return 0;
