@@ -2,16 +2,13 @@
 
 int main()
 {
-    int i,t,n;
-    scanf("%d", &n);
-    
-    for(i=1; i<=n; i++){
-        for(t=0; t<i; t++){
-            printf("*");
-        }
-        printf("\n");
-    }
-
-
-    return 0;
+   int i, j, n;
+   scanf( "%d", &n );
+   for( i = n ; i >= 1 ; i-- )
+   {
+      for( j = 1 ; j <= i ; j++ )
+         printf( "*" );
+      printf("\n");   
+   }
+   return 0;
 }
