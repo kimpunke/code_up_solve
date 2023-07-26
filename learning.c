@@ -11,6 +11,7 @@ int main()
       for(j=0; j<(i*2)+1; j++){
          printf("*");
       }
+      if(i==n-3) return 0;
       printf("\n");
    }
    return 0;
