@@ -12,3 +12,4 @@
 
 - problem (문제번호) try (시도 횟수) (infinity output) : 출력 한계 초과
 
+test
