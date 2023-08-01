@@ -38,6 +38,19 @@ int main (){
          }
          count++;
       }
+      else{
+         for(j=1; j<=n; j++){
+            if(j==1||j==n){
+               printf("*");
+            }
+            else if(j==count||j==(n-count)+1){
+               printf("*");
+            }
+            else{
+               printf(" ");
+            }
+         }
+      }
       
       printf("\n");
     }
