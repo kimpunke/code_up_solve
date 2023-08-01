@@ -4,7 +4,7 @@
 int main (){
     int n,i,j,k,count;
     scanf("%d", &n);
-    count=2;
+    count=1;
     for(i=1; i<=n; i++){
       if(i%(n-1)==1){
          for(j=1; j<=n; j++){
@@ -25,6 +25,7 @@ int main (){
          }
       }
       else if(i<(n/2)+1){
+         count++;
          for(j=1; j<=n; j++){
             if(j==1||j==n){
                printf("*");
@@ -36,9 +37,10 @@ int main (){
                printf(" ");
             }
          }
-         count++;
+         
       }
       else{
+         count--;
          for(j=1; j<=n; j++){
             if(j==1||j==n){
                printf("*");
@@ -50,7 +52,7 @@ int main (){
                printf(" ");
             }
          }
-         count--;
+         
       }
       
       printf("\n");
