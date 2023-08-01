@@ -25,6 +25,9 @@ int main (){
             else if(j==count||j==(n-count)+1){
                printf("*");
             }
+            else if(j==(n/2)+1){
+               printf("*");
+            }
             else{
                printf(" ");
             }
@@ -37,6 +40,9 @@ int main (){
                printf("*");
             }
             else if(j==count||j==(n-count)+1){
+               printf("*");
+            }
+            else if(j==(n/2)+1){
                printf("*");
             }
             else{
