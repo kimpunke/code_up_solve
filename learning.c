@@ -13,6 +13,7 @@ int main (){
          for(j=1; j<=weight; j++){
             printf("*");
          }
+         if(i==height) return 0;
          printf("\n");
       }
     }
@@ -25,6 +26,7 @@ int main (){
          for(j=1; j<=weight; j++){
             printf("*");
          }
+         if(i==height) return 0;
          printf("\n");
       }
     }
