@@ -13,15 +13,7 @@ int main (){
       }
       else if(n%2!=0&&i==(n/2)+1){
          for(j=1; j<=n; j++){
-            if(j%(n-1)==1){
-               printf("*");
-            }
-            else if(j==(n/2)+1){
-               printf("*");
-            }
-            else {
-               printf(" ");
-            }
+            printf("*");
          }
       }
       else if(i<(n/2)+1){
