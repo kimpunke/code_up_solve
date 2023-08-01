@@ -40,7 +40,6 @@ int main (){
          
       }
       else{
-         count--;
          for(j=1; j<=n; j++){
             if(j==1||j==n){
                printf("*");
@@ -52,7 +51,7 @@ int main (){
                printf(" ");
             }
          }
-         
+         count--;
       }
       
       printf("\n");
