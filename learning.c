@@ -10,7 +10,7 @@ int main (){
             printf("*");
          }
       }
-      else if(n%i==(i-1)){
+      else if(i==(n/2)+1){
          for(j=1; j<=n; j++){
             if(j%(n-1)==1){
                printf("*");
