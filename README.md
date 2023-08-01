@@ -11,3 +11,5 @@
 - problem (문제번호) try (시도 횟수) (expression error) : 표현 오류
 
 - problem (문제번호) try (시도 횟수) (infinity output) : 출력 한계 초과
+
+- problem (문제번호) test (시도 횟수) : 알고리즘을 짜는 도중 맞는지 확인하기 위해서 제출한것
