@@ -50,6 +50,7 @@ int main (){
                printf(" ");
             }
          }
+         count--;
       }
       
       printf("\n");
