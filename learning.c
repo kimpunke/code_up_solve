@@ -20,7 +20,7 @@ int main()
         }
         printf("*");
         count--;
-        if(i==m&&j==n-1) return 0;
+        if(i==m-1&&j==n-2) return 0;
         printf("\n");
     }
    }
