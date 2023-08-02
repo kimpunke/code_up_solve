@@ -23,6 +23,7 @@ int main()
         if(i==m-1&&j==n-2) return 0;
         printf("\n");
     }
+    count++;
    }
    return 0;
 }
