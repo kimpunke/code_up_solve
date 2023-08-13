@@ -15,7 +15,7 @@ int main()
         printf("%d",c);
     }
    }
-   else if(a<b&&b>c){
+   else if(b>a&&b>c){
     if(a>c){
         printf("%d",a);
     }
@@ -28,7 +28,7 @@ int main()
         printf("%d",a);
     }
     else{
-        printf("%d",c);
+        printf("%d",b);
     }
    }
    else{
