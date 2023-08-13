@@ -4,14 +4,23 @@ int main()
 {
    int a,b;
    scanf("%d %d",&a,&b);
-   if(a>b){
-    printf(">");
-   }
-   else if(a<b){
-    printf("<");
+   if(a%2==0){
+    printf("짝수+");
    }
    else{
-    printf("=");
+    printf("홀수+");
+   }
+   if(b%2==0){
+    printf("짝수=");
+   }
+   else{
+    printf("홀수=");
+   }
+   if((a+b)%2==0){
+    printf("짝수");
+   }
+   else{
+    printf("홀수");
    }
    
    return 0;
