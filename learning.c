@@ -2,13 +2,40 @@
 
 int main()
 {
-   int time,score;
-   scanf("%d %d",&time,&score);
-   while(time<90){
-    time+=5;
-    score++;
+   int a,b,c;
+   scanf("%d %d %d",&a,&b,&c);
+   if(a>b&&a>c){
+    if(b>c){
+        printf("%d",b);
+    }
+    else{
+        printf("%d",c);
+    }
    }
-   printf("%d",score);
+   else if(a<b&&b>c){
+    if(a>c){
+        printf("%d",a);
+    }
+    else{
+        printf("%d",c);
+    }
+   }
+   else if(c>a&&c>b){
+    if(a>b){
+        printf("%d",a);
+    }
+    else{
+        printf("%d",c);
+    }
+   }
+   else{
+    if(a==b||b==c){
+        printf("%d",b);
+    }
+    else{
+        printf("%d",a);
+    }
+   }
    
    return 0;
 }
