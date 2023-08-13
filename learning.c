@@ -2,25 +2,13 @@
 
 int main()
 {
-   int a,b;
-   scanf("%d %d",&a,&b);
-   if(a%2==0){
-    printf("짝수+");
+   int a,b,c;
+   scanf("%d %d %d",&a,&b,&c);
+   if(a<=170||b<=170||c<=170){
+    printf("CRASH");
    }
    else{
-    printf("홀수+");
-   }
-   if(b%2==0){
-    printf("짝수=");
-   }
-   else{
-    printf("홀수=");
-   }
-   if((a+b)%2==0){
-    printf("짝수");
-   }
-   else{
-    printf("홀수");
+    printf("PASS");
    }
    
    return 0;
