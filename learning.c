@@ -4,7 +4,10 @@ int main()
 {
    int a,b,c;
    scanf("%d %d %d",&a,&b,&c);
-   if(a>b&&a>c){
+   if(a==b||b==c){
+    printf("%d",b);
+   }
+   else if(a>b&&a>c){
     if(b>c){
         printf("%d",b);
     }
@@ -29,12 +32,7 @@ int main()
     }
    }
    else{
-    if(a==b||b==c){
-        printf("%d",b);
-    }
-    else{
-        printf("%d",a);
-    }
+    printf("%d",a);
    }
    
    return 0;
