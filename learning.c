@@ -2,14 +2,13 @@
 
 int main()
 {
-   int a,b,c;
-   scanf("%d %d %d",&a,&b,&c);
-   if(a<=170||b<=170||c<=170){
-    printf("CRASH");
+   int time,score;
+   scanf("%d %d",&time,&score);
+   while(time<90){
+    time+=5;
+    score++;
    }
-   else{
-    printf("PASS");
-   }
+   printf("%d",score);
    
    return 0;
 }
