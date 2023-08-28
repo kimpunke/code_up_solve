@@ -7,9 +7,9 @@ int main()
    birth=2013-age;
    printf("%d ", birth%100);
    if(2012-age>=2000){
-    printf("1");
+    printf("3");
    }
-   else printf("3");
+   else printf("1");
 
    return 0;
 }
