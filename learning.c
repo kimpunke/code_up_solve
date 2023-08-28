@@ -3,15 +3,12 @@
 int main()
 {
    int birth,year,age;
-   scanf("%d %d",&birth,&year);
-   if(year<=2){
-    age=birth/10000;
-    printf("%d",2012-1899-age);
+   scanf("%d",&age);
+   printf("%d",2011-age);
+   if(2012-age>=2000){
+    printf("1");
    }
-   else{
-    age=birth/10000;
-    printf("%d",2012-1999-age);
-   }
+   else printf("3");
 
    return 0;
 }
