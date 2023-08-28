@@ -2,14 +2,13 @@
 
 int main()
 {
-   int birth,year,age;
-   scanf("%d",&age);
-   birth=2013-age;
-   printf("%d ", birth%100);
-   if(2013-age>=2000){
-    printf("3");
-   }
-   else printf("1");
-
+   int grade,class,number;
+   scanf("%d ",&grade);
+   scanf("%d ",&class);
+   scanf("%d ",&number);
+   printf("%d%d",grade,class);
+   if(number>=10) printf("%d",number);
+   else printf("0%d",number);
+   
    return 0;
 }
